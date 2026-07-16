@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"yadro.com/course/update/core"
+	"github.com/Lullabalu/microservice-search-system/update/core"
 )
 
 type Client struct {

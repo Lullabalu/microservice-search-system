@@ -10,14 +10,14 @@ import (
 	"os/signal"
 	"time"
 
+	searchpb "github.com/Lullabalu/microservice-search-system/proto/search"
+	"github.com/Lullabalu/microservice-search-system/search/adapters/db"
+	searchgrpc "github.com/Lullabalu/microservice-search-system/search/adapters/grpc"
+	"github.com/Lullabalu/microservice-search-system/search/adapters/words"
+	"github.com/Lullabalu/microservice-search-system/search/config"
+	"github.com/Lullabalu/microservice-search-system/search/core"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
-	searchpb "yadro.com/course/proto/search"
-	"yadro.com/course/search/adapters/db"
-	searchgrpc "yadro.com/course/search/adapters/grpc"
-	"yadro.com/course/search/adapters/words"
-	"yadro.com/course/search/config"
-	"yadro.com/course/search/core"
 )
 
 func main() {

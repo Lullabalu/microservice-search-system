@@ -9,14 +9,14 @@ import (
 	"os"
 	"os/signal"
 
-	"yadro.com/course/api/adapters/aaa"
-	"yadro.com/course/api/adapters/rest"
-	"yadro.com/course/api/adapters/rest/middleware"
-	"yadro.com/course/api/adapters/search"
-	"yadro.com/course/api/adapters/update"
-	"yadro.com/course/api/adapters/words"
-	"yadro.com/course/api/config"
-	"yadro.com/course/api/core"
+	"github.com/Lullabalu/microservice-search-system/api/adapters/aaa"
+	"github.com/Lullabalu/microservice-search-system/api/adapters/rest"
+	"github.com/Lullabalu/microservice-search-system/api/adapters/rest/middleware"
+	"github.com/Lullabalu/microservice-search-system/api/adapters/search"
+	"github.com/Lullabalu/microservice-search-system/api/adapters/update"
+	"github.com/Lullabalu/microservice-search-system/api/adapters/words"
+	"github.com/Lullabalu/microservice-search-system/api/config"
+	"github.com/Lullabalu/microservice-search-system/api/core"
 )
 
 func main() {

@@ -4,10 +4,10 @@ import (
 	"context"
 	"log/slog"
 
+	wordspb "github.com/Lullabalu/microservice-search-system/proto/words"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/protobuf/types/known/emptypb"
-	wordspb "yadro.com/course/proto/words"
 )
 
 type Client struct {

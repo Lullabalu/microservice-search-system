@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/Lullabalu/microservice-search-system/api/core"
 	"github.com/golang-jwt/jwt/v5"
-	"yadro.com/course/api/core"
 )
 
 const secretKey = "1234321"   // token sign key

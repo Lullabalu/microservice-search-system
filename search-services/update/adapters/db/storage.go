@@ -4,10 +4,11 @@ import (
 	"context"
 	"log/slog"
 
+	"slices"
+
+	"github.com/Lullabalu/microservice-search-system/update/core"
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/jmoiron/sqlx"
-	"slices"
-	"yadro.com/course/update/core"
 )
 
 type DB struct {

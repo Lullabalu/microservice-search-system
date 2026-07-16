@@ -4,11 +4,11 @@ import (
 	"context"
 	"log/slog"
 
+	"github.com/Lullabalu/microservice-search-system/api/core"
+	searchpb "github.com/Lullabalu/microservice-search-system/proto/search"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"yadro.com/course/api/core"
-	searchpb "yadro.com/course/proto/search"
 )
 
 type Client struct {

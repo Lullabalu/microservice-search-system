@@ -4,7 +4,7 @@ package words;
 
 import "google/protobuf/empty.proto";
 
-option go_package = "yadro.com/course/proto/words";
+option go_package = "github.com/Lullabalu/microservice-search-system/proto/words";
 
 message WordsRequest {
   string phrase = 1;

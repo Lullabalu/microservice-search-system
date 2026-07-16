@@ -9,15 +9,15 @@ import (
 	"os"
 	"os/signal"
 
+	updatepb "github.com/Lullabalu/microservice-search-system/proto/update"
+	"github.com/Lullabalu/microservice-search-system/update/adapters/db"
+	updategrpc "github.com/Lullabalu/microservice-search-system/update/adapters/grpc"
+	"github.com/Lullabalu/microservice-search-system/update/adapters/words"
+	"github.com/Lullabalu/microservice-search-system/update/adapters/xkcd"
+	"github.com/Lullabalu/microservice-search-system/update/config"
+	"github.com/Lullabalu/microservice-search-system/update/core"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
-	updatepb "yadro.com/course/proto/update"
-	"yadro.com/course/update/adapters/db"
-	updategrpc "yadro.com/course/update/adapters/grpc"
-	"yadro.com/course/update/adapters/words"
-	"yadro.com/course/update/adapters/xkcd"
-	"yadro.com/course/update/config"
-	"yadro.com/course/update/core"
 )
 
 func main() {

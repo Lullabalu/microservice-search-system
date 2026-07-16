@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"yadro.com/course/api/core"
+	"github.com/Lullabalu/microservice-search-system/api/core"
 )
 
 type TokenVerifier interface {

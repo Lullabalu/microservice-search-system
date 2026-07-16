@@ -8,6 +8,7 @@ import (
 	"strings"
 	"unicode"
 
+	wordspb "github.com/Lullabalu/microservice-search-system/proto/words"
 	"github.com/ilyakaznacheev/cleanenv"
 	"github.com/kljensen/snowball"
 	"google.golang.org/grpc"
@@ -15,7 +16,6 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
-	wordspb "yadro.com/course/proto/words"
 )
 
 type server struct {

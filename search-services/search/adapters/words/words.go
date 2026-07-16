@@ -3,9 +3,9 @@ package words
 import (
 	"context"
 
+	wordspb "github.com/Lullabalu/microservice-search-system/proto/words"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
-	wordspb "yadro.com/course/proto/words"
 )
 
 type Client struct {

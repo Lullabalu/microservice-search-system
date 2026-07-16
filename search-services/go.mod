@@ -1,4 +1,4 @@
-module yadro.com/course
+module github.com/Lullabalu/microservice-search-system
 
 go 1.25.1
 

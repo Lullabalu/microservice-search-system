@@ -3,9 +3,9 @@ package grpc
 import (
 	"context"
 
+	searchpb "github.com/Lullabalu/microservice-search-system/proto/search"
+	"github.com/Lullabalu/microservice-search-system/search/core"
 	"google.golang.org/protobuf/types/known/emptypb"
-	searchpb "yadro.com/course/proto/search"
-	"yadro.com/course/search/core"
 )
 
 type Server struct {

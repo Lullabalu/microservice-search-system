@@ -4,7 +4,7 @@ package search;
 
 import "google/protobuf/empty.proto";
 
-option go_package = "yadro.com/course/proto/search";
+option go_package = "github.com/Lullabalu/microservice-search-system/proto/search";
 
 service Search {
   rpc Search(SearchRequest) returns (SearchResponse) {}

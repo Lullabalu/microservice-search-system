@@ -195,7 +195,7 @@ const file_proto_search_search_proto_rawDesc = "" +
 	"\x06Search\x129\n" +
 	"\x06Search\x12\x15.search.SearchRequest\x1a\x16.search.SearchResponse\"\x00\x128\n" +
 	"\x04Ping\x12\x16.google.protobuf.Empty\x1a\x16.google.protobuf.Empty\"\x00\x12>\n" +
-	"\vSearchIndex\x12\x15.search.SearchRequest\x1a\x16.search.SearchResponse\"\x00B\x1fZ\x1dyadro.com/course/proto/searchb\x06proto3"
+	"\vSearchIndex\x12\x15.search.SearchRequest\x1a\x16.search.SearchResponse\"\x00B>Z<github.com/Lullabalu/microservice-search-system/proto/searchb\x06proto3"
 
 var (
 	file_proto_search_search_proto_rawDescOnce sync.Once

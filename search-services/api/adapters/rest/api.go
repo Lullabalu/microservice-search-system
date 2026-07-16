@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Lullabalu/microservice-search-system/api/core"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"yadro.com/course/api/core"
 )
 
 type PingResponse struct {

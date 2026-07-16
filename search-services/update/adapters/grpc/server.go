@@ -2,11 +2,12 @@ package grpc
 
 import (
 	"context"
+
+	updatepb "github.com/Lullabalu/microservice-search-system/proto/update"
+	"github.com/Lullabalu/microservice-search-system/update/core"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
-	updatepb "yadro.com/course/proto/update"
-	"yadro.com/course/update/core"
 )
 
 func NewServer(service core.Updater) *Server {
